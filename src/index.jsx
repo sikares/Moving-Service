@@ -6,6 +6,7 @@ import Main from './components/Main';
 import Features from './components/Features';
 import ImagesControlled from './components/ImagesControlled';
 import Container from 'react-bootstrap/Container';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,5 +17,6 @@ root.render(
       <Features />
       <ImagesControlled />
     </Container>
+    <Footer />
   </React.StrictMode>
 );
