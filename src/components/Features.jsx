@@ -9,8 +9,8 @@ function Features() {
           <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 p-3 rounded-3">
             <img
               src="/images/briefcase.svg"
-              width="30"
-              height="30"
+              width="26"
+              height="26"
               class="bi bi-box"
             />
           </div>
@@ -35,8 +35,8 @@ function Features() {
         <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 p-3 rounded-3">
             <img
               src="/images/bus-front.svg"
-              width="30"
-              height="30"
+              width="26"
+              height="26"
               class="bi bi-box"
             />
           </div>
@@ -61,8 +61,8 @@ function Features() {
         <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 p-3 rounded-3">
             <img
               src="/images/chat-square-heart.svg"
-              width="30"
-              height="30"
+              width="26"
+              height="26"
               class="bi bi-box"
             />
           </div>
