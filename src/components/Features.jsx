@@ -1,20 +1,22 @@
 import React from 'react'
 
-function Features() {
+function Features({ darkMode }) {
   return (
     <div className="container px-4 py-5" id="featured-3">
       <h2 className="pb-2 border-bottom">Why Move With Us?</h2>
       <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div className="feature col">
-          <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 p-3 rounded-3">
-            <img
-              src="/images/briefcase.svg"
-              width="26"
-              height="26"
-              class="bi bi-box"
-            />
+        <div className="feature col mb-4">
+          <div
+            className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 px-3 py-2 rounded-3"
+            style={{ width: '60px', height: '60px' }}
+          >
+            <i class="bi bi-briefcase" style={{ fontSize: "27px" }}></i>
           </div>
-          <h3 className="fs-2 text-body-emphasis">Professional</h3>
+          <h3
+            className={`fs-2 ${darkMode ? 'text-light' : 'text-body-emphasis'}`}
+          >
+            Professional
+          </h3>
           <p>
             Our team of professional movers are trained to prioritize
             efficiency, organization, and attention to detail. We understand
@@ -25,22 +27,24 @@ function Features() {
           </p>
           <a href="#" className="icon-link">
             Get a quote
-            <img
-              src="/images/chevron-right.svg"
-              class="bi bi-box"
-            />
+            <i
+              className="bi bi-chevron-right mb-1"
+              style={{ color: darkMode ? 'white' : 'black' }}
+            ></i>
           </a>
         </div>
-        <div className="feature col">
-        <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 p-3 rounded-3">
-            <img
-              src="/images/bus-front.svg"
-              width="26"
-              height="26"
-              class="bi bi-box"
-            />
+        <div className="feature col mb-4">
+          <div
+            className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 px-3 py-2 rounded-3"
+            style={{ width: '60px', height: '60px' }}
+          >
+            <i class="bi bi-bus-front" style={{ fontSize: "27px" }}></i>
           </div>
-          <h3 className="fs-2 text-body-emphasis">Countrywide</h3>
+          <h3
+            className={`fs-2 ${darkMode ? 'text-light' : 'text-body-emphasis'}`}
+          >
+            Countrywide
+          </h3>
           <p>
             We offer a range of services to suit your individual needs, whether
             you're moving locally or across the country. Our team can handle
@@ -51,22 +55,24 @@ function Features() {
           </p>
           <a href="#" className="icon-link">
             Get a quote
-            <img
-              src="/images/chevron-right.svg"
-              class="bi bi-box"
-            />
+            <i
+              className="bi bi-chevron-right mb-1"
+              style={{ color: darkMode ? 'white' : 'black' }}
+            ></i>
           </a>
         </div>
         <div className="feature col">
-        <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 p-3 rounded-3">
-            <img
-              src="/images/chat-square-heart.svg"
-              width="26"
-              height="26"
-              class="bi bi-box"
-            />
+          <div
+            className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 px-3 py-2 rounded-3"
+            style={{ width: '60px', height: '60px' }}
+          >
+            <i class="bi bi-chat-square-heart" style={{ fontSize: "27px" }}></i>
           </div>
-          <h3 className="fs-2 text-body-emphasis">Personal Touch</h3>
+          <h3
+            className={`fs-2 ${darkMode ? 'text-light' : 'text-body-emphasis'}`}
+          >
+            Personal Touch
+          </h3>
           <p>
             At our core, we believe that moving should be an exciting and
             positive experience, not a stressful one. By providing exceptional
@@ -77,10 +83,10 @@ function Features() {
           </p>
           <a href="#" className="icon-link">
             Get a quote
-            <img
-              src="/images/chevron-right.svg"
-              class="bi bi-box"
-            />
+            <i
+              className="bi bi-chevron-right mb-1"
+              style={{ color: darkMode ? 'white' : 'black' }}
+            ></i>
           </a>
         </div>
       </div>

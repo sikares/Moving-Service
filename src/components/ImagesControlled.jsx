@@ -9,7 +9,7 @@ function ImagesControlled() {
   };
 
   return (
-      <Carousel activeIndex={index} onSelect={handleSelect} className="mb-4">
+      <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
             src="/images/couple.jpg"
